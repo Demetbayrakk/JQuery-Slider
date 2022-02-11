@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/***************** Görseller *******************/
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul li{
+    float:left;
+}
+
+
+.clear{
+    clear: both;
+}
+
+/************************ görsellerin butonlarını oluşturma***********************/
+
+.navigation{
+    margin-top: 5px;
+}
+
+.navigation li{
+    margin-right: 2px;
+}
+
+.navigation li a{
+    background-color: #9C0F48;
+    color:#F9E4D4;
+    border:1px solid #9C0F48;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navigation li a.active{
+    background-color: #470d21;
+    border: 1px solid #470d21;
+}
+
+.navigation li a:hover{
+    background-color: #470d21;
+    border:1px solid #470d21;
+}
+
+.container{
+    height: 375px;
+    width: 600px;
+    position: relative;
+}
+.navigation-btn{
+    position: absolute;
+    background-color: #9C0F48;
+    text-decoration: none;
+    color:#F9E4D4;
+    padding: 2px;
+    display: block;
+    opacity: 0.5;
+    font-size: 30px;
+}
+.navigation-btn:hover{
+    background-color: #9C0F48;
+    transition:1s all; /*1 saniyede gerçekleşsin*/
+    opacity: 0.8;
+}
+#prev{
+    left:0px;
+    top:150px;
+}
+#next{
+    right: 0px;
+    top:150px;
+}
